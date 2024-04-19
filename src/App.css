@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.card{
+  /* width: 250px;  */
+  border-top: 4px solid #a020f0;
+  cursor: pointer;
+  transition: all 0.2s;
+  background: white;
+  
+}
+
+.card:hover{
+  transform: scale(1.2);
+}
